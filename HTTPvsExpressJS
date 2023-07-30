@@ -1,0 +1,15 @@
+Difference between HTTP module and Express.js module:
+                HTTP                                                                                                Express
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTTP comes inbuilt along with NodeJS that is,                                         Express is installed explicitly using npm command: npm install express 
+we don’t need to install it explicitly. 	
+
+HTTP is not a framework as a whole, rather it is just a module.	                      Express is a framework as a whole.
+
+HTTP does not provide function for static hosting,                                    Express provide express.static function for static asset hosting. Example: app.use(express.static(‘public’));
+you require to write your own.	
+
+HTTP is an independent module.	                                                      Express is made on top of the HTTP module.
+
+HTTP module provides various tools (functions) to do things                           Express along with what HTTP does provide many more functions in order to make development easy.
+for networking like making a server, client, etc.	
